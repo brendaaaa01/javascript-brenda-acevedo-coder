@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="icon" href="../img/favicon.svg">
+    <title>Tienda de cervezas</title>
+    <link rel="stylesheet" href="../estilos/styles.css">
+</head>
+<body>
+    
+
+    <div class="banner-bienvenida">
+        <h1>Hola!</h1>
+        <p>Bienvenido al paraíso de la cerveza: ¡Explora y descubre el sabor de las mejores cervezas artesanales! Sumérgete en nuestra selección única y disfruta de la experiencia 
+        cervecera que estabas esperando. ¡Salud y a disfrutar del viaje cervecero!</p>
+    </div>
+
+    <div class="Titulo Productos">
+		<h2>Nuestras Cervezas</h2>
+	</div>
+    
+    <div id="tarjeta-producto"></div>
+
+    <div id="carrito-index">
+        <table>
+            <thead>
+              <tr>
+                <th>Imagen</th>
+                <th>Nombre</th>
+                <th>Unidades</th>
+                <th>Costo Unitario</th>
+                <th>Costo Total</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody id="items"></tbody>
+            <tfoot id="totales"></tfoot>
+        </table>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="../js/productos.js"></script>
+    <script type="module" src="../js/main.js"></script>
+</body>
+</html>
