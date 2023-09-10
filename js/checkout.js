@@ -71,7 +71,7 @@ finalizarCompra.addEventListener("click", function () {
   Swal.fire({
     position: "center",
     icon: "success",
-    title: "Podes ingresar a nuestra tienda. Salud!",
+    title: "Compra realizada con exito",
     showConfirmButton: false,
     timer: 2000,
   }).then(() => {
