@@ -1,0 +1,49 @@
+[
+    {"idProducto": 1, 
+    "nombre": "Golden Ale", 
+    "precio": 1100, 
+    "imagen":"../img/golden.jpg"},
+    {
+      "idProducto": 2,
+      "nombre": "Amber",
+      "precio": 1100,
+      "imagen":"../img/amber.jpg"
+    },
+    {
+      "idProducto": 3,
+      "nombre": "Stout",
+      "precio": 1100,
+      "imagen":"../img/stout.jpg"
+    },
+    {
+      "idProducto": 4,
+      "nombre": "AAA",
+      "precio": 1200,
+      "imagen":"../img/aaa.jpg"
+    },
+    {
+      "idProducto": 5,
+      "nombre": "IPA",
+      "precio": 1400,
+      "imagen":"../img/ipa.jpg"
+    },
+    {
+      "idProducto": 6,
+      "nombre": "Pilsen",
+      "precio": 1150,
+      "imagen":"../img/pilsen.jpg"
+    },
+    {
+      "idProducto": 7,
+      "nombre": "American Stout",
+      "precio": 1300,
+      "imagen":"../img/american-stout.jpg"
+    },
+    {
+      "idProducto": 8,
+      "nombre": "Porter",
+      "precio": 1300,
+      "imagen":"../img/porter.jpg"
+    }
+  ]
+
