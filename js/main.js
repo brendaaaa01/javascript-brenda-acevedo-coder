@@ -12,7 +12,7 @@ botonCarrito.addEventListener('click', () => {
   carritoContainer.classList.toggle('abierto');
 });
 cerrarCarrito.addEventListener('click', () => {
-  carritoContainer.classList.remove('abierto'); // Cierra el carrito al hacer clic en el botón de cerrar
+  carritoContainer.classList.remove('abierto');
 });
 
 
