@@ -32,25 +32,20 @@ function crearInput(labelText, inputType, inputName) {
 
 
 ///////////////////////////FORMULARIO DE COMPRA/////////////////////////////////
-// Campos datos personales
 const datosPersonalesDiv = document.createElement("div");
 datosPersonalesDiv.classList.add("formulario-seccion");
 const nombreInput = crearInput("Nombre", "text", "nombre");
 const emailInput = crearInput("Email", "email", "email");
-
 datosPersonalesDiv.appendChild(nombreInput);
 datosPersonalesDiv.appendChild(emailInput);
 
-// Campos de tarjeta
 const tarjetaDiv = document.createElement("div");
 tarjetaDiv.classList.add("formulario-seccion");
 const numeroTarjetaInput = crearInput("Número de Tarjeta", "text", "numeroTarjeta");
 const fechaExpiracionInput = crearInput("Fecha de Expiración", "text", "fechaExpiracion");
-
 tarjetaDiv.appendChild(numeroTarjetaInput);
 tarjetaDiv.appendChild(fechaExpiracionInput);
 
-// Campos de envío
 const envioDiv = document.createElement("div");
 envioDiv.classList.add("formulario-seccion");
 const direccionInput = crearInput("Dirección de Envío", "text", "direccion");
@@ -62,12 +57,11 @@ envioDiv.appendChild(codigoPostalInput);
 formulario.appendChild(datosPersonalesDiv);
 formulario.appendChild(tarjetaDiv);
 formulario.appendChild(envioDiv);
-const contenedorFormulario = document.querySelector(".formulario"); // Reemplaza con el selector adecuado
+const contenedorFormulario = document.querySelector(".formulario");
 contenedorFormulario.appendChild(formulario);
 
 const finalizarCompra = document.getElementById("finalizarCompra");
 finalizarCompra.addEventListener("click", function () {
-  // Muestra un alert de "Compra realizada"
   Swal.fire({
     position: "center",
     icon: "success",
@@ -75,7 +69,6 @@ finalizarCompra.addEventListener("click", function () {
     showConfirmButton: false,
     timer: 2000,
   }).then(() => {
-    // Redirige al índice (index.html)
     window.location.href = "index.html";
   });
 });
@@ -129,6 +122,5 @@ totalCompraElement.textContent = `$${totalCompra.toFixed(2)}`;
 
 const volverAlIndexButton = document.getElementById("volver-al-index");
 volverAlIndexButton.addEventListener("click", () => {
-  // Redirigir a la página principal (reemplaza "index.html" con la ruta correcta)
   window.location.href = "index.html";
 });
